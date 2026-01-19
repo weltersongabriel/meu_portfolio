@@ -12,6 +12,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  .section__pic-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* fica mais bonito no mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .section__pic-container {
+    width: 120px;
+    height: 120px;
+  }
+}
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -87,8 +101,8 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 200px;
+    height: 200px;
     justify-content: center;
   }
   .section__text__p2 {
